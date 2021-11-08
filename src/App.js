@@ -1,10 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
-import CatalogList from './Catalog-list/Catalog-list'
+import ListIkan from './List-Ikan/List-Ikan';
+import CatalogList from './Catalog-list/Catalog-list';
+import DeskripsiIkan from './List-Ikan/Deskripsi-Ikan';
+
 
 function App() {
   return (
-   <CatalogList/>
+    <div>
+    <CatalogList/>
+    <ListIkan />
+    <DeskripsiIkan/>
+    </div>
   );
 }
 
