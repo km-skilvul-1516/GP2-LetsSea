@@ -1,0 +1,21 @@
+.tentang {
+    margin-top: 50px;
+}
+
+h3 {
+    text-align: center;
+}
+
+.kumpulan-kartu {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.namaabout {
+    text-align: center;
+}
+
+image3 {
+    border-radius: 100px;
+}
