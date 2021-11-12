@@ -1,0 +1,23 @@
+.bungkus {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+img {
+    width: 500px;
+}
+
+.bungkusSatu {
+    width: 500px;
+}
+
+.bungkusSatu > h5 {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.bungkusSatu > h1 {
+    padding-top: 50px;
+}

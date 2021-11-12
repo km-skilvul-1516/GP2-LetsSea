@@ -1,0 +1,13 @@
+.footer-container {
+  background-color: #26AB8A;
+  padding: 8px 0 4px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.website-rights {
+  color: #fff;
+  font-size: 20px;
+}
