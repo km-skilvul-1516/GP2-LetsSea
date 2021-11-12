@@ -1,6 +1,21 @@
-import React from 'react';
-import '../../App.css';
+import { CartState } from "../context/Context"
+import SingleProduct from "../SingleProduct";
+import "../style/style.css"
 
-export default function Transaksi() {
-  return <h1 className='transaksi'>TRANSAKSI</h1>;
+export default function Home () {
+    const {state : {product}  } = CartState();
+    // console.log(product)
+    return (
+        <div className = "home">
+            <div className='productContainer'>
+                {product.map((prod) => {
+
+                  return  <SingleProduct prod = {prod} key={prod.id}/>
+                  
+                })}
+            </div>
+        </div>
+        
+    )
+    
 }
