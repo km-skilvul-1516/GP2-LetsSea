@@ -1,6 +1,6 @@
 import { CartState } from "../context/Context"
 import SingleProduct from "../SingleProduct";
-import "../style/style.css"
+import "../../style/style.css"
 
 export default function Home () {
     const {state : {product}  } = CartState();
