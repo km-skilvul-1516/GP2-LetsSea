@@ -7,7 +7,7 @@ function HeroSection() {
     <div>
       <div className='hero-container'>
       
-      <video src='/videos/video-3.mp4' autoPlay loop muted />
+      <video src='./assets/video-hero.mp4' autoPlay loop muted />
       
     </div>
     </div>
