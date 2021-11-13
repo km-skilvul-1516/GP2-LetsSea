@@ -1,5 +1,5 @@
 import React from 'react'
-import './Menu.css';
+import '../style/Menu.css';
 import { useState, useEffect } from 'react'
 import axios from 'axios';
 
