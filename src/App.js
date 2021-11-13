@@ -1,15 +1,11 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import ListIkan from './List-Ikan/List-Ikan';
-import CatalogList from './Catalog-list/Catalog-list';
-import DeskripsiIkan from './List-Ikan/Deskripsi-Ikan';
-
 
 function App() {
   return (
     <div>
-    <CatalogList/>
-    <ListIkan />
-    <DeskripsiIkan/>
+      <BrowserRouter>
+      </BrowserRouter>
     </div>
   );
 }
