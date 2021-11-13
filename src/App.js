@@ -1,15 +1,17 @@
+import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import ListIkan from './List-Ikan/List-Ikan';
-import CatalogList from './Catalog-list/Catalog-list';
-import DeskripsiIkan from './List-Ikan/Deskripsi-Ikan';
+// import Header from './components/Navbar';
+import Home from "./components/pages/Home"
+
 
 
 function App() {
   return (
     <div>
-    <CatalogList/>
-    <ListIkan />
-    <DeskripsiIkan/>
+      <BrowserRouter>
+        {/* <Header/> */}
+        <Home/>
+      </BrowserRouter>
     </div>
   );
 }

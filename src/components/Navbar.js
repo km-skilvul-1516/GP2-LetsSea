@@ -5,7 +5,7 @@ import { CartState } from "../context/Context";
 import {AiFillDelete} from "react-icons/ai";
 import {FaShoppingCart} from "react-icons/fa";
 import "../style/style.css"
-import "../style/Navbar.css"
+import "../style/navbar.css"
 
 export default function Header () {
     const [click, setClick] = useState(false);
