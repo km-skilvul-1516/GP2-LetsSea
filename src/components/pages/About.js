@@ -2,7 +2,6 @@ import React from 'react';
 import '../../App.css';
 import '../../style/About.css'
 import { Card } from 'react-bootstrap'
-
 import image1 from '../../assets/rehan-fix-valid.jpg'
 import image2 from '../../assets/nuri-fix-valid-satu.heic'
 import image3 from '../../assets/frensi-fix-valid.jpeg'

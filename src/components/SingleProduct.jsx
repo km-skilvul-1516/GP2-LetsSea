@@ -16,7 +16,7 @@ export default function SingleProduct ({prod}) {
                 <div>
                    <p className="judul">{prod.Nama}</p>
                    <p className="kota">
-                        <span >Pengiriman dari {prod.Kota} </span>
+                        <span >Pengiriman dari Kota{prod.Kota} </span>
                    </p>
                    <p className="hargaa">
                         <span>Rp {prod.Harga}.000</span>
