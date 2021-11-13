@@ -1,5 +1,5 @@
 import React from 'react';
-import "../style/Card.css"
+import './Menu.css';
 import { Link } from 'react-router-dom';
 
 export default function Kategori () {
