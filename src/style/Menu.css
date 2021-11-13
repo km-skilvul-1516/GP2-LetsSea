@@ -32,12 +32,6 @@ h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2:hover {
-    cursor: pointer;
-    transition: all .3s ease-in-out;
-    color: lightyellow;
-}
-
 h3 {
     text-align: center;
 }
@@ -64,7 +58,6 @@ p {
     margin-left: 16rem;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
-    /* padding-bottom: 6rem; */
     width: 320px;
     height: 180px;
 }
@@ -135,7 +128,6 @@ p {
 
 .card-title-ktg {
     margin-bottom: 0.5rem;
-    text-align: ;
 }
 
 .btn-card {
