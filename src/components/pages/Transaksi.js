@@ -1,8 +1,9 @@
-import { CartState } from "../context/Context"
+// import { CartState } from "../../context/Context"
+import { CartState } from "../../context/Context";
 import SingleProduct from "../SingleProduct";
 import "../../style/style.css"
 
-export default function Home () {
+export default function Transaksi () {
     const {state : {product}  } = CartState();
     // console.log(product)
     return (

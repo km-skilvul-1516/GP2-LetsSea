@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ListGroup, Button, Row, Col, Image } from "react-bootstrap";
-import { CartState } from "../context/Context"
+// import { CartState } from "../context/Context"
+import { CartState } from "../context/Context";
 
 export default function Cart () {
     const {state : {cart}, dispatch} = CartState();
