@@ -1,5 +1,5 @@
 import React from 'react';
-import './Menu.css';
+import '../style/Menu.css';
 import { Link } from 'react-router-dom';
 
 export default function Kategori () {
