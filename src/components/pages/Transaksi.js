@@ -1,5 +1,4 @@
-// import { CartState } from "../../context/Context"
-import { CartState } from "../../context/Context";
+import { CartState } from "../../context/Context"
 import SingleProduct from "../SingleProduct";
 import "../../style/style.css"
 
