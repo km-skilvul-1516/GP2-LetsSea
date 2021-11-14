@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Context from './context/Context'
+import Context from "./context/Context"
 import 'bootstrap/dist/css/bootstrap.min.css';
 ReactDOM.render(
   <React.StrictMode>
     <Context>
-    <App />
+      <App />
     </Context>
   </React.StrictMode>,
   document.getElementById('root')
