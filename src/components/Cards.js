@@ -16,13 +16,13 @@ function Cards() {
               src={image1}
               text='List edukasi menarik tentang jenis ikan berdasarkan habitatnya mulai dari Ikan Air Laut dan Ikan Air Tawar'
               label='EDUKASI'
-              path='/services'
+              path='/edukasi'
             />
             <CardItem
               src={image2}
               text='Tempat bertransaksi segala jenis ikan Air Laut dan Ikan Air Tawar'
               label='TRANSAKSI'
-              path='/sign-up'
+              path='/transaksi'
             />
           </ul>
         </div>
