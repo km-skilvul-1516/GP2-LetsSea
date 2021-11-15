@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import './HeroSection.css';
+import '../style/HeroSection.css';
 
 import video1 from '../assets/video-fix.mp4'
 

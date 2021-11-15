@@ -1,11 +1,10 @@
 import React from 'react';
 import validate from './validateInfo';
 import useForm from './useForm';
-import './Form.css';
+import '../style/Form.css';
 import { Link } from 'react-router-dom';
 
 import image1 from '../assets/eachh.svg'
-import Button from '@restart/ui/esm/Button';
 
 const FormSignup = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -73,11 +72,11 @@ const FormSignup = ({ submitForm }) => {
           />
           {errors.password2 && <p>{errors.password2}</p>}
         </div>
-        <Link to ="/login">
+        <Link to='/login'>
           <button className='form-input-btn' type='submit'>
             Daftar
-          </button> 
-        </Link>   
+          </button>    
+        </Link>
         <Link to='/login'> 
         <div> 
           Sudah punya akun? Login disini
