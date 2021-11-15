@@ -25,9 +25,11 @@ function IkanTawar() {
                       <img src={post.Img} alt="" />
                         <h4>{post.Nama}</h4>
                         <h5>{post.NamaLatin}</h5>
-                        <p>Protein : {post.Protein} g</p>
-                        <p>Kalori : {post.Kalori} kkal</p>
-                        <p>Lemak : {post.Lemak} g</p>
+                        <p>
+                        Protein : {post.Protein} g <br/>
+                        Kalori : {post.Kalori} kkal <br/>
+                        Lemak : {post.Lemak} g <br/>
+                        </p>
                  </div>
                  </div>
             ))}
