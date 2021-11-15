@@ -4,7 +4,7 @@ import useForm from './useForm';
 import './Form.css';
 import { Link } from 'react-router-dom';
 
-import image1 from './assets/eachh.svg'
+import image1 from '../assets/eachh.svg'
 
 const FormSignup = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(

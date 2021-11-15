@@ -88,6 +88,7 @@ export default function Header () {
                                 src={prod.Img}
                                 className="cartItemImg"
                                 alt={prod.Nama}
+                                style = {{height :"5px"}}
                                 />
                                 <div className="cartItemDetail">
                                 <span>{prod.Nama}</span>
