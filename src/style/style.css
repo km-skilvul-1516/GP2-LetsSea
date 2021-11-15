@@ -104,12 +104,7 @@ img{
     margin-bottom: 20px;
 }
   
-.cartItemImg {
-    border-radius: 50%;
-    width: 100px;
-    height : 10em;
-    object-fit: cover;
-}
+
   
 .cartItemDetail {
     display: flex;

@@ -84,12 +84,6 @@ export default function Header () {
                          <>
                             {cart.map((prod) => (
                             <span className="cartitem" key={prod.id}>
-                                <img
-                                src={prod.Img}
-                                className="cartItemImg"
-                                alt={prod.Nama}
-                                // style = {{height:"100px"}}
-                                />
                                 <div className="cartItemDetail">
                                 <span>{prod.Nama}</span>
                                 <span>Rp {prod.Harga}.000</span>
