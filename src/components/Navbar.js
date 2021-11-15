@@ -118,7 +118,7 @@ export default function Header () {
                 </Dropdown.Menu>
                 </Dropdown>
             <Link to ="/signup">
-                <button className="masuk">Sign Up</button>               
+                <button className="masuk">Sign Up </button>               
             </Link>
             </div>
         </nav>
