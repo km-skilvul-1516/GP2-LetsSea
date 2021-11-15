@@ -5,6 +5,7 @@ import './Form.css';
 import { Link } from 'react-router-dom';
 
 import image1 from '../assets/eachh.svg'
+import Button from '@restart/ui/esm/Button';
 
 const FormSignup = ({ submitForm }) => {
   const { handleChange, handleSubmit, values, errors } = useForm(
@@ -72,10 +73,12 @@ const FormSignup = ({ submitForm }) => {
           />
           {errors.password2 && <p>{errors.password2}</p>}
         </div>
-        <button className='form-input-btn' type='submit'>
-          Daftar
-        </button>    
-        <Link to='/'> 
+        <Link to ="/login">
+          <button className='form-input-btn' type='submit'>
+            Daftar
+          </button> 
+        </Link>   
+        <Link to='/login'> 
         <div> 
           Sudah punya akun? Login disini
           {/* <li className='ininavitem'>

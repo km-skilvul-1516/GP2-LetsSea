@@ -107,7 +107,7 @@ img{
 .cartItemImg {
     border-radius: 50%;
     width: 100px;
-    /* height : 5px; */
+    height : 10em;
     object-fit: cover;
 }
   
