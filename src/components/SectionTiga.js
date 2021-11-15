@@ -1,6 +1,6 @@
 import React from "react";
 import { Carousel } from 'react-bootstrap'
-import './SectionTiga.css'
+import '../style/SectionTiga.css'
 
 import image1 from '../assets/sea.jpg'
 import image2 from '../assets/fresh-water.jpg'
