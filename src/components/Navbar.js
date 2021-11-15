@@ -88,7 +88,7 @@ export default function Header () {
                                 src={prod.Img}
                                 className="cartItemImg"
                                 alt={prod.Nama}
-                                style = {{height :"5px"}}
+                                // style = {{height:"100px"}}
                                 />
                                 <div className="cartItemDetail">
                                 <span>{prod.Nama}</span>
@@ -117,7 +117,9 @@ export default function Header () {
                     
                 </Dropdown.Menu>
                 </Dropdown>
-            <button className="masuk">Sign Up</button>
+            <Link to ="/signup">
+                <button className="masuk">Sign Up</button>               
+            </Link>
             </div>
         </nav>
         </>
