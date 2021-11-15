@@ -3,7 +3,7 @@
     import FormLoginA from './FormLoginA';
     import FormSuccess from './FormSuccess';
 
-    import image1 from './assets/eachh.svg'
+    import image1 from '../assets/eachh.svg'
 
     const FormLogin = () => {
     const [isSubmitted, setIsSubmitted] = useState(false);
