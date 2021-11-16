@@ -42,7 +42,7 @@ export default function Header () {
             <ul className={click ? 'ininavmenu active' : 'ininavmenu'}>
                 <li className='ininavitem'>
                 <Link to='/' className='ininavlinks' onClick={closeMobileMenu}>
-                    Home
+                    Beranda
                 </Link>
                 </li>
                 <li className='ininavitem'>
@@ -69,7 +69,7 @@ export default function Header () {
                     className='ininavlinks'
                     onClick={closeMobileMenu}
                 >
-                    About
+                    Tentang
                 </Link>
                 </li>
             </ul>
@@ -107,12 +107,12 @@ export default function Header () {
                             </Link>
                         </>
                     ): 
-                    (<span style= {{padding: 10}}> Cart is Empty</span>)}
+                    (<span style= {{padding: 10}}>Keranjang Kosong!</span>)}
                     
                 </Dropdown.Menu>
                 </Dropdown>
             <Link to ="/signup">
-                <button className="masuk">Sign Up </button>               
+                <button className="masuk">Daftar</button>               
             </Link>
             </div>
         </nav>
