@@ -23,13 +23,15 @@ function IkanTawar() {
             (   <div className="item-con" key={post.id}>
                    <div className="item-container">
                       <img src={post.Img} alt="" />
-                        <h4>{post.Nama}</h4>
-                        <h5>{post.NamaLatin}</h5>
-                        <p>
-                        Protein : {post.Protein} g <br/>
-                        Kalori : {post.Kalori} kkal <br/>
-                        Lemak : {post.Lemak} g <br/>
-                        </p>
+                        <div className = "nama-ikan">
+                            <h4>{post.Nama}</h4>
+                            <h5>{post.NamaLatin}</h5>
+                            <p>
+                            Protein : {post.Protein} g <br/>
+                            Kalori : {post.Kalori} kkal <br/>
+                            Lemak : {post.Lemak} g <br/>
+                            </p>
+                        </div>
                  </div>
                  </div>
             ))}
