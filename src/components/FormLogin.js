@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import '../style/Form.css';
+import '../style/FormLogin.css';
 import FormLoginA from './FormLoginA';
 import FormSuccess from './FormSuccess';
+import "../style/Form.js"
 
 import image1 from '../assets/eachh.svg'
 
