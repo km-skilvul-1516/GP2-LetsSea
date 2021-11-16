@@ -1,16 +1,14 @@
 import React from 'react';
 import validate from './validateInfo';
 import useForm from './useForm';
-import './FormLogin';
 import { Link } from 'react-router-dom';
+import "../style/FormLogin.css"
 
 const FormLoginA = ({ submitForm }) => {
 const { handleChange, handleSubmit, values, errors } = useForm(
     submitForm,
     validate
 );
-
-console.log('/inidarilogin')
 
 return (
     <div className='form-content-right'>

@@ -1,3 +1,7 @@
+/* *{
+    background-color : red;
+} */
+
 .form-container {
     margin: 100px auto;
     width: 1000px;
@@ -96,7 +100,7 @@
     display: inline-block;
     font-size: 0.8rem;
     margin-bottom: 6px;
-    color: #fff;
+    color: black;
 }
 
 .form-input {

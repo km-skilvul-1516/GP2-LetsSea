@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import '../style/Form.css';
 import FormSignup from './FormSignup';
 import FormSuccess from './FormSuccess';
+import "../style/FormLogin.css"
 
 import image1 from './assets/eachh.svg'
 
