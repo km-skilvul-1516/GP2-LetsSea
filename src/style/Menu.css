@@ -18,38 +18,34 @@ body {
     text-align: center;
 }
 
+.nama-ikan h5 {
+    font-size: 18px;
+    font-weight: 240;
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: white;
+    text-align: left;
+}
+
+.nama-ikan h4 {
+    font-size: 24px;
+    font-weight: 560;
+    color: white;
+}
+
 h1 {
     text-align: center;
     padding: 1.2rem 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2 {
+.judul-list-ikan h2 {
     text-align: center;
     padding: 2rem 1.2rem;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #26AB8A;
     text-transform: uppercase;
-    font-weight:800;
-}
-
-h3 {
-    text-align: center;
-    color: white;
-}
-
-h4 {
-    font-size: 24px;
-    font-weight: 240;
-    color: white;
-}
-
-h5 {
-    font-size: 18px;
-    font-weight: 240;
-    font-style: italic;
-    margin-bottom: 1rem;
-    color: white;
+    font-weight: 720;
 }
 
 p {
@@ -133,6 +129,11 @@ p {
 
 .card-title-ktg {
     margin-bottom: 0.5rem;
+}
+
+.card-title-ktg h3 {
+    text-align: center;
+    color: white;
 }
 
 .btn-card {
