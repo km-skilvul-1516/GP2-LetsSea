@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { ListGroup, Button, Row, Col, Image } from "react-bootstrap";
+import { Link } from "react-router-dom";
 // import { CartState } from "../context/Context"
 import { CartState } from "../context/Context";
 
@@ -42,17 +43,20 @@ export default function Cart () {
             <div className="filters-summary">
                 <form>
                     <label>Nama Penerima</label><br/> 
-                    <input type ="text"></input><br/> <br/>
+                    <input type ="text" required></input><br/> <br/>
                     <label>Alamat Penerima</label><br/> 
-                    <input type ="text"></input><br/> <br/>
+                    <input type ="text" required></input><br/> <br/>
                     <label>Nomor Handphone Penerima</label><br/> 
-                    <input type ="number"></input> <br/> <br/>
+                    <input type ="number" required></input> <br/> <br/>
                 </form>
-                <span>Total Pembelian Rp {total}.000</span> <br/><br/>
-                <span className='title'>Jumlah Produk ({cart.length}) buah</span> <br/><br/>
-                <button style= {{marginLeft:"200px", borderRadius: "5px"}}> 
-                    Beli Sekarang
-                </button>
+                <span style ={{fontWeight : "bold"}}>Total Pembelian Rp {total}.000</span> <br/><br/>
+                <span style ={{fontWeight : "bold"}}>Jumlah Produk {cart.length} buah</span> <br/><br/>
+                <Link to = "/">
+                    <button style= {{marginLeft:"200px", borderRadius: "5px"}}> 
+                        Beli Sekarang
+                    </button>
+                </Link>
+
             </div>
         </div>
     )
