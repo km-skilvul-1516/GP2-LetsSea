@@ -15,7 +15,7 @@ export default function About() {
     <div>
       <div>
         <div className='tentangdua'>
-          <h1 className='white'>Let's Sea</h1>
+          <h1 className='white'>Tentang Let's Sea</h1>
           <h5 className='white'>
             Tentang Let's Sea adalah website yang dapat memberikan edukasi tentang jenis ikan berdasarkan habitatnya yaitu di Laut dan Air tawar serta memberikan wadah untuk dapat melakukan transaksi pembelian ikan. Let's Sea juga memiliki dua pemecahan masalah yang pertama adalah Menyediakan edukasi tentang jenis ikan berdasar habitatnya dalam bentuk list dan deskripsi dan yang kedua adalah menyediakan katalog ikan (deskripsi singkat, foto dan harga) yang nantinya dapat memfasilitasi pengguna untuk dapat melakukan transaksi pembelian ikan
           </h5>
@@ -23,7 +23,7 @@ export default function About() {
       </div>
       <div className='tentang'>
         
-        <h3>About Us</h3>
+        <h3>Group 15</h3>
         <div className='kumpulan-kartu'>
         <Card style={{ width: '18rem' }}>
         <Card.Img variant="top" src={image3} />
