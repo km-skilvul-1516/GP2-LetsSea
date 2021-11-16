@@ -14,7 +14,7 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={image1}
-              text='List edukasi menarik tentang jenis ikan berdasarkan habitatnya mulai dari Ikan Air Laut dan Ikan Air Tawar'
+              text='List edukasi tentang Ikan Air Laut dan Ikan Air Tawar'
               label='EDUKASI'
               path='/edukasi'
             />

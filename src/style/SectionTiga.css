@@ -2,3 +2,21 @@ h1 {
     text-align: center;
     padding-bottom: 50px;
 }
+
+.gambarTiga {
+    height: 600px;
+}
+
+.tulislima {
+    color: white;
+    padding-bottom: 100px;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.tulislimatiga {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 100px;
+    line-height: 50px;
+}

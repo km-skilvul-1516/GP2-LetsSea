@@ -1,8 +1,6 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 import Cart from './components/Cart';
-import FormLoginA from './components/FormLoginA';
-import FormSignup from './components/FormSignup';
 import IkanLaut from './components/IkanLaut';
 import IkanTawar from './components/IkanTawar';
 import Kategori from './components/Kategori';
@@ -10,6 +8,8 @@ import Header from './components/Navbar';
 import About from './components/pages/About';
 import Home from "./components/pages/Home"
 import Transaksi from "./components/pages/Transaksi"
+import FormLogin from './components/FormLogin';
+import FormSignup from './components/FormSignup';
 
 
 
@@ -26,8 +26,8 @@ function App() {
           <Route exact path = "/cart" element ={<Cart/>}/>
           <Route exact path = "/IkanLaut" element ={<IkanLaut/>}/>
           <Route exact path = "/IkanTawar" element ={<IkanTawar/>}/>
-          <Route exact path = "/login" element = {<FormLoginA/>}/>
           <Route exact path = "/signup" element = {<FormSignup/>}/>
+          <Route exact path = "/login" element = {<FormLogin/>}/>
         </Routes>
       </BrowserRouter>
     </div>

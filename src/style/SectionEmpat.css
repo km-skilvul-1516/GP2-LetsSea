@@ -3,15 +3,17 @@
     flex-direction: row;
     justify-content: space-around;
     padding-top: 100px;
+    padding-bottom: 130px;
 }
 
 .gambarlima {
     width: 500px;
-    border: 10px solid black;
+    height: 350px;
 }
 
 .bungkusSatu {
     width: 500px;
+    padding-top: 10px;
 }
 
 .bungkusSatu > h5 {
@@ -21,5 +23,5 @@
 }
 
 .bungkusSatu > h1 {
-    padding-top: 50px;
+    padding-top: 10px;
 }
