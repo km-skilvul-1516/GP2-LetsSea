@@ -21,9 +21,9 @@ const FormSignup = ({ submitForm }) => {
     </div>
     <div className='form-content-right'>
       <form onSubmit={handleSubmit} className='form' noValidate>
-        <h1>
-          Buat akunmu dengan mengisi kotak dibawah ini.
-        </h1>
+        <p className='ya'>
+          REGISTER
+        </p>
         <div className='form-inputs'>
           <label className='form-label'>Username</label>
           <input
@@ -77,13 +77,10 @@ const FormSignup = ({ submitForm }) => {
             Daftar
           </button>    
         </Link>
+        <br/>
         <Link to='/login'> 
-        <div> 
+        <div className='tidak'> 
           Sudah punya akun? Login disini
-          {/* <li className='ininavitem'>
-                <Link to='/' className='ininavlinks' onClick={closeMobileMenu}>
-                    Home
-                </Link> */}
         </div>
         </Link>
       </form>

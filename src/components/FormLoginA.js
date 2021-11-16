@@ -2,7 +2,7 @@ import React from 'react';
 import validate from './validateInfo';
 import useForm from './useForm';
 import { Link } from 'react-router-dom';
-import "../style/FormLogin.css"
+import "../style/Form.css"
 
 const FormLoginA = ({ submitForm }) => {
 const { handleChange, handleSubmit, values, errors } = useForm(
@@ -13,9 +13,9 @@ const { handleChange, handleSubmit, values, errors } = useForm(
 return (
     <div className='form-content-right'>
     <form onSubmit={handleSubmit} className='form' noValidate>
-        <h1>
-        Isi dengan data yang sesuai dengan pendaftaran
-        </h1>
+        <p className='ya'>
+        LOGIN
+        </p>
         <div className='form-inputs'>
         <label className='form-label'>Username</label>
         <input
@@ -57,8 +57,9 @@ return (
             Masuk
             </button>
         </Link>
+        <br/>
         <Link to='/signup'>
-        <div>
+        <div className='tidak'>
                 Belum punya akun? Daftar disini
         </div>
         </Link>
