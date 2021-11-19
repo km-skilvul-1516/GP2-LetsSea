@@ -8,6 +8,7 @@
     padding : 20px;
     flex-wrap : wrap;
     justify-content : space-around;
+   
     
 }
 
@@ -18,10 +19,12 @@
     max-height: 500px;
     margin-bottom:90px;
    
+   
 }
 
 img{
     min-height: 200px;
+    max-height: 120px;
     max-width: 100%;  
     border-radius: 10px;  
 }
@@ -103,7 +106,12 @@ img{
     margin-bottom: 20px;
 }
   
+.cartItemImg {
 
+    width: 140px;
+    height :10px;
+    /* object-fit: cover; */
+}
   
 .cartItemDetail {
     display: flex;
@@ -145,3 +153,188 @@ input {
     border : 1px solid black;
     width : 500px;
 }
+
+ /* untuk layar device berukuran kecil */
+ @media only screen and (max-width: 600px) {
+    .products{
+        width: 300px;
+    }
+
+    input {
+        width : 230px;
+    }
+}
+  
+ /* untuk layar device berukuran sedang */
+ @media screen and (min-width: 768px) {
+   .products{
+       width: 320px;
+   }
+
+   input {
+       width : 300px;
+   }
+
+   .btn-hapus {
+       width : 190px;
+   }
+ } 
+
+ /* untuk layar device berukuran besar*/
+ @media screen and (min-width: 1024px) {
+    .home {
+        display : flex;
+    }
+    
+    .productContainer {
+        display : flex;
+        width : 100%;
+        padding : 20px;
+        flex-wrap : wrap;
+        justify-content : space-around;
+       
+        
+    }
+    
+    .products {
+        width : 30%;
+        margin : 10px;
+        min-height: 300px;
+        max-height: 500px;
+        margin-bottom:90px;
+       
+       
+    }
+    
+    img{
+        min-height: 200px;
+        max-height: 120px;
+        max-width: 100%;  
+        border-radius: 10px;  
+    }
+    
+    .kota{
+        color:grey;
+        font-family: roboto;
+        margin-left: 10px;
+    }
+    .hargaa{
+        font-weight:bolder;
+        margin-left: 10px;
+        font-size: 20px;
+        color : black;
+    }
+    
+    .judul{
+        font-size: 28px;
+        font-weight: bolder;
+        margin-top: 30px;
+        margin-left: 10px;
+        color : black;
+    }
+    
+    .bbeli{
+     
+        font-size: 18px;
+        text-align: center;
+        width: 100%;
+        cursor: pointer;
+        outline: none;
+        color: #fff;
+        background-color: #04AA6D;
+        border: none;
+        box-shadow: 0 2px #999;
+        height: 50px;
+        border-radius: 10px;
+      }
+      
+      .bbeli:hover {
+        width: 100%;
+        background-color: #3e8e41;
+        border-radius: 10px;}
+      
+    
+    
+    .hapus{
+        
+        background-color:red; 
+        border: none;
+        width: 100%;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        }
+    
+    .all{
+        max-width: 300px;
+        margin-left: 40px;
+        border:1px solid grey;
+        border-radius: 10px;
+        padding: 7px;
+    }
+    
+    .products {
+        width : 30%;
+        margin : 10px;
+    }
+    
+    .cartitem {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 20px;
+        margin-bottom: 20px;
+    }
+      
+    .cartItemImg {
+    
+        width: 140px;
+        height :10px;
+        /* object-fit: cover; */
+    }
+      
+    .cartItemDetail {
+        display: flex;
+        flex: 1;
+        padding: 0 20px;
+        flex-direction: column;
+    }
+    
+    button {
+        color : white;
+        background-color : #5EC27F;
+        border : none;
+        padding : 10px;
+        border-radius : 15px;
+    }
+    
+    .productCart {
+        display : flex;
+        width : 55%;
+        padding : 20px;
+        flex-wrap : wrap;
+        justify-content : space-around;
+        background-color: #D7F0DF;
+    }
+    
+    .btn-hapus {
+        background-color : #d9534f;
+        width : 230px;
+        border-radius : 5px;
+    }
+    
+    .filters-summary {
+        padding-top : 20px;
+        padding-left : 30px;
+    }
+    
+    input {
+        border-radius : 5px;
+        border : 1px solid black;
+        width : 420px;
+    }
+    }

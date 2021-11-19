@@ -52,7 +52,7 @@ export default function Cart () {
                 <span style ={{fontWeight : "bold"}}>Total Pembelian Rp {total}.000</span> <br/><br/>
                 <span style ={{fontWeight : "bold"}}>Jumlah Produk {cart.length} buah</span> <br/><br/>
                 <Link to = "/">
-                    <button style= {{marginLeft:"200px", borderRadius: "5px"}}> 
+                    <button style= {{borderRadius: "5px"}}> 
                         Beli Sekarang
                     </button>
                 </Link>
